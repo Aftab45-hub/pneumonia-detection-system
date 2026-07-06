@@ -1,0 +1,9 @@
+datasheets/
+uploaded_images/
+__pycache__/
+*.pyc
+datasheets/
+uploaded_images/
+model/cnn_model.h5
+__pycache__/
+*.pyc

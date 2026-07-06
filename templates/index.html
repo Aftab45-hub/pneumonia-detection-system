@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Pneumonia Detection</title>
+
+<link
+rel="stylesheet"
+href="{{ url_for('static',
+filename='styles.css') }}">
+
+</head>
+
+<body>
+
+<h1>
+Pneumonia Detection
+</h1>
+
+<input
+type="file"
+id="xray-file">
+
+<br><br>
+
+<button
+id="diagnose-btn">
+
+Predict
+
+</button>
+
+<br><br>
+
+<img
+id="image-preview"
+width="300">
+
+<h2
+id="result-text">
+
+Upload Image
+
+</h2>
+
+<script
+src="{{ url_for(
+'static',
+filename='script.js'
+) }}">
+</script>
+
+</body>
+
+</html>
